@@ -29,7 +29,7 @@ Method: POST
 Parameters
 url: http://localhost:3000/jwt
 
-Headers: authkey: LNJn2VzBiiJUxU382BHA
+Headers: authkey: GQv1cjMGDu
 
 2. shorten_url
 Method: POST
@@ -45,9 +45,9 @@ Headers: { "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28
 Method: GET
 
 Parameters
-url: http://localhost:3000/shorten_url
+url:http://localhost:3000/shorten_url_list/:email
 
-body: { "email": "aldrin@gmail.com" }
+params : { "email": "aldrin@gmail.com" }
 
 Headers: { "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJib2J5IiwiaWF0IjoxNjMwOTYzMjc1fQ.DPsST-tT637blXrTY5QRT4TLHMh0q-8aX6RFHehGsZQ"}
 
