@@ -1,5 +1,4 @@
 # URL shortner
-shorten url
 ![urlshortner-1](https://user-images.githubusercontent.com/19823240/132262465-f9ea8971-37fc-462a-bbf7-f358904cfe56.PNG)
 
 
