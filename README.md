@@ -14,7 +14,6 @@ Add site config files in \config\site.config.js
 
 step 4:
 npm start 
-Note: Service will be started in 3000 port in default
 
 
 
