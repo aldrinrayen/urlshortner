@@ -422,7 +422,7 @@ router.post('/jwt', function(req, res, next) {
     var authKey = req.headers.authkey;
 
     console.log(authKey)
-    if (authKey == 'LNJn2VzBiiJUxU382BHA') {
+    if (authKey == 'GQv1cjMGDu') {
         console.log("enterer")
         var privateKey = fs.readFileSync(process.cwd() + '/cert/public.pem', 'utf8');
         jwt.sign({ foo: 'boby' }, privateKey, { algorithm: 'HS256' }, function(err, token) {
