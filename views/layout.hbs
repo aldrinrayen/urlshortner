@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/javascripts/script.js"></script>
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+<nav id="navbar" class="">
+  <div class="nav-wrapper">
+    <!-- Navbar Logo -->
+    <div class="logo">
+      <!-- Logo Placeholder for Inlustration -->
+      <a onclick="home()" style="cursor: pointer;"><i class="fa fa-chart"></i> URL Shortner</a>
+    </div>
+
+    <!-- Navbar Links -->
+    <ul id="menu">
+     <!-- <li><a href="#home">Home</a></li>
+   <li><a href="#services">Services</a></li>
+<li><a href="#about">About</a></li>
+
+     
+     
+     
+   -->
+    {{#if action}}
+   <li><a onclick="apidocs()">API Documentation</a></li><li id="#logout"><a onclick="logout()" id="Logout">{{action}}</a></li>
+   {{else}}
+    {{/if}}
+    </ul>
+  </div>
+</nav>
+
+
+
+
+   {{{body}}}
+  </body>
+</html>
