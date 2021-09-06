@@ -18,7 +18,7 @@ Note: Service will be started in 3000 port in default
 
 
 
-
+===========================================================================
 
 
 To Access APIs:
@@ -52,4 +52,4 @@ body: { "email": "aldrin@gmail.com" }
 
 Headers: { "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJib2J5IiwiaWF0IjoxNjMwOTYzMjc1fQ.DPsST-tT637blXrTY5QRT4TLHMh0q-8aX6RFHehGsZQ"}
 
-
+===========================================================================
